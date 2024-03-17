@@ -57,7 +57,7 @@ const Blog = () => {
               loading="lazy"
             />
           ))}
-          ;
+          
         </div>
       </section>
     </>
