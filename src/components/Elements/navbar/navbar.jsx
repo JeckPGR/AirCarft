@@ -74,12 +74,12 @@ export default function Navbar() {
               </Link>
             </li>
             <div className="flex gap-x-3 justify-center my-6 lg:my-0">
-              <a href="/login">
+              <Link to="/login">
                 <ButtonFilled text="Log In" />
-              </a>
-              <a href="/register">
+              </Link>
+              <Link to="/register">
                 <OutlineButton text="Sign Up" />
-              </a>
+              </Link>
             </div>
           </ul>
         </div>
