@@ -1,4 +1,4 @@
-import InputForm from "../Elements/Input";
+import InputForm from "../Elements/Input/index";
 import ButtonFilled from "../Elements/Button/ButtonFilled";
 
 const FormRegister = () => {
