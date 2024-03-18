@@ -43,7 +43,7 @@ export default function Dropdown({ title, items, url }) {
         leaveFrom="transform opacity-100 scale-100"
         leaveTo="transform opacity-0 scale-95"
       >
-        <Menu.Items className="absolute top-11 -left-20 z-10 mt-1 w-56 origin-top-right rounded-md border border-secondary/35    overflow-hidden  bg-white shadow-lg ">
+        <Menu.Items className="lg:absolute lg:top-11 lg:-left-20 z-10 mt-1 w-56 origin-top-right lg:rounded-md lg:border lg:border-secondary/35   lg:overflow-hidden lg:bg-white lg:shadow-lg ">
           <div className=" ">
             {items.map((item, index) => (
               <Menu.Item key={index}>
